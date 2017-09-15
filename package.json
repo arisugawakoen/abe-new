@@ -1,0 +1,42 @@
+{
+  "name": "ABE",
+  "version": "1.0.0",
+  "description": "Ancient Bulletin-board Experience",
+  "keyword": "node.js Express vue.js BBS",
+  "homepage": "http://aliceriverpark.pw",
+  "license": "GPL-3.0",
+  "author": "arisugawakoen <@arisugawakoen>(http://aliceriverpark.pw)",
+  "private": true,
+  "scripts": {
+    "start": "PORT=80 node ./bin/www",
+    "cluster": "PORT=80 node cluster",
+    "h2ocluster": "PORT=3000 node cluster",
+    "sync": "node ./bin/sync"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "moment": "^2.17.1",
+    "morgan": "~1.7.0",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.23.6",
+    "serve-favicon": "~2.3.0",
+    "vue": "^2.2.2",
+    "vue-router": "^2.3.0",
+    "vuex": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.26.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.3",
+    "vue-template-compiler": "^2.2.2",
+    "webpack": "^2.3.1"
+  }
+}
